@@ -4,7 +4,6 @@ import (
 	"database/sql"
 	"log"
 	"net/http"
-	"os/user"
 
 	"github.com/berkbeyret/firstgobackendapi/service/user"
 	"github.com/gorilla/mux"
