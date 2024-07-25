@@ -29,6 +29,7 @@ func (s *APIServer) Run() error {
 	userHandler.RegisterRoutes(subrouter)
 
 	log.Println("Server is running on", s.addr)
+	log.Println("Press CTRL+C to stop the server")
 
 	return http.ListenAndServe(s.addr, router)
 }
